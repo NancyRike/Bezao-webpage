@@ -1,0 +1,150 @@
+body{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 3em auto 5em auto;
+}
+.heading button{
+  width: 72px;
+  height: 23px;
+  font-family: Roboto;
+  border: 2px solid #5555FF;
+  border-radius: 4px;
+  width: 175px;
+  height: 34px;
+}
+
+.motto{
+  display: flex;
+}
+.motto img{
+  height: 778px;
+  width: 794px;
+
+}
+.motto h1{
+  font-size: 64px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  line-height: 79px;
+  font-style: normal;
+  margin: 0;
+}
+.motto p{
+  width: 70%;
+}
+.motto button{
+  color: white;
+  background-color: #5555FF;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  font-size: 10px;
+}
+.catch1{
+  color: #EDEDFA;
+}
+.catch2{
+  color: #55E3FF;
+}
+.catch3{
+  color:  #5555FF;
+}
+
+.aboutBezao{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 6em;
+}
+.aboutBezao h1{
+  width: 100%;
+    font-size: 40px;
+    color: #5555FF;
+    margin-right: 10em;
+}
+
+.aboutBezao p{
+  font-size: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: 22px;
+    width: 78%;
+    margin: auto;
+}
+
+.bezcontent{
+  display: flex;
+
+}
+.bezcontent img{
+  width: 800px;
+  height: 320px;
+}
+.itCovers{
+  background-color: #5555FF;
+  color: white;
+}
+.itCovers div{
+  width: 60%;
+  margin: auto;
+  padding-top: 3em;
+}
+.itCovers h2{
+  font-size: 35px;
+}
+
+.itCovers button{
+  color: #5555FF;
+  background-color: white;
+  padding: 8px 15px;
+  font-size: 10px;
+  border: none;
+  border-radius: 4px
+}
+
+.language{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5em auto;
+}
+.language h2{
+  font-size:50px;
+  width: 7em;
+  color: #5555FF;
+}
+.language img{
+  margin: 1em;
+}
+.sponsors{
+  background-color: #55E3FF;
+  padding: 4em
+
+}
+.sponsors h5{
+      font-size: 14px;
+      font-weight:100;
+      color: #3E3C3C;
+}
+.sponsors div{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.bezlogo{
+  background-color:  #5555FF;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+.bezlogo img{
+  margin-left: 10em;
+}
