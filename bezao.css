@@ -19,6 +19,7 @@ body{
   border-radius: 4px;
   width: 175px;
   height: 34px;
+  background-color: white;
 }
 
 .motto{
@@ -27,7 +28,9 @@ body{
 .motto img{
   height: 778px;
   width: 794px;
-
+}
+.catchPhrase{
+  align-self: center;
 }
 .motto h1{
   font-size: 64px;
@@ -40,6 +43,7 @@ body{
 .motto p{
   width: 70%;
   color: #9B9B9B;
+  margin: 3em 0;
 }
 .motto button{
   color: white;
