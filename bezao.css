@@ -26,8 +26,8 @@ body{
   display: flex;
 }
 .motto img{
-  height: 778px;
-  width: 794px;
+  height: 48em;
+  width: 49em;
 }
 .catchPhrase{
   align-self: center;
@@ -77,7 +77,7 @@ body{
       line-height: 70px;
       color: #5555FF;
       margin: 0;
-      margin-right: 6em;
+      margin-right: 5em;
 }
 
 .aboutBezao p{
@@ -91,18 +91,23 @@ body{
 
 .bezcontent{
   display: flex;
+  background-color: #5555FF;
+  justify-content: space-between;
+  height: 46%;
 
 }
 .bezcontent img{
-  width: 800px;
-  height: 534px;
+    width: 106%;
+    height: 100%;
 }
 .itCovers{
   background-color: #5555FF;
   color: white;
+  width: 50%;
+  /* margin: auto; */
 }
 .itCovers div{
-  width: 60%;
+  width: 61%;
   margin: auto;
   padding: 7em;
 }
@@ -116,7 +121,8 @@ body{
   padding: 12px 53px;
   font-size: 10px;
   border: none;
-  border-radius: 4px
+  border-radius: 4px;
+  margin-top:2em;
 }
 
 .language{
@@ -163,3 +169,148 @@ body{
 .bezlogo img{
   margin-left: 10em;
 }
+@media screen and (max-width: 1400px){
+  .aboutBezao{
+    padding: 11em;
+  }
+  .aboutBezao h1{
+    width: 80%;
+    font-size: 67px;
+
+  }
+  .aboutBezao p{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1350px){
+  body{
+    overflow-x: hidden;
+  }
+  .motto img{
+    height: 45em;
+      width: 46em;
+    }
+  .itCovers{
+    width: 55%;
+  }
+  .itCovers div{
+    width: 65%;
+  }
+}
+  @media screen and (max-width: 1300px) {
+    .motto h1{
+      font-size: 60px;
+      line-height: 68px;
+    }
+    .motto p{
+      width: 63%;
+      margin: 2em 0;
+    }
+    .itCovers{
+      width: 60%;
+    }
+    .aboutBezao h1{
+      width: 87%;
+      font-size: 69px;
+      line-height: 70px;
+      margin-right: 4em;
+    }
+  }
+  @media screen and (max-width: 1250px) {
+      .motto h1{
+        font-size: 55px;
+      }
+      .motto img {
+        height: 40em;
+        width: 41em;
+      }
+      .motto p {
+        width: 80%;
+      }
+      .aboutBezao{
+        padding: 8em;
+      }
+      .aboutBezao h1{
+        font-size: 65px;
+      }
+      .aboutBezao p{
+        font-size: 12px;
+      }
+      .itCovers div{
+        width: 63%;
+      }
+      .itCovers h2 {
+        font-size: 45px;
+      }
+      .itCovers p {
+        font-size: 14px;
+      }
+      .language h2{
+        font-size: 65px;
+      }
+  }
+  @media screen and (max-width: 1200px) {
+    .heading{
+      margin: 3em auto 3em auto;
+    }
+    .language{
+      margin: 6em auto;
+    }
+    .language img{
+      height: 8em;
+      width: 7em;
+    }
+    .itCovers div{
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 1130px) {
+    .itCovers div{
+      width: 56%;
+    }
+    .itCovers h2{
+
+    }
+    .sponsors div{
+      width: 90%;
+    }
+    .sponsors h5{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 1090px) {
+    .language{
+      flex-direction: column;
+      text-align: center;
+    }
+    .language h2{
+      width: 14em;
+    }
+    .itCovers h2{
+      font-size: 37px;
+    }
+    .itCovers p{
+      font-size: 12px;
+    }
+
+  }
+  @media screen and (max-width: 1020px) {
+    .aboutBezao{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .aboutBezao p{
+      margin-top: 2em;
+    }
+    .itCovers div{
+      padding: 2em;
+    }
+  }
+  @media screen and (max-width: 578px) {
+    .motto img{
+      height: 34em;
+      width: 35em;
+    }
+
+  }
